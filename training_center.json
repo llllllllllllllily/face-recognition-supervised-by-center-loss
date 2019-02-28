@@ -1,7 +1,7 @@
 {
-  "dataroot": "/data/tee/face/vggface_train/test300",
-  "lfw_dir": "/data/tee/face/LFW/lfw_aligned",
-  "lfw_pairs_path": "/data/tee/face/LFW/lfw_pairs.txt",
+ "dataroot": "./datasets/vggface2",
+  "lfw_dir": "./datasets/lfw_aligned",
+  "lfw_pairs_path": "./datasets/lfw_pairs.txt",
   "log_dir": "./checkpoints",
   "resume": true,
   "start_epoch": 0,
@@ -14,7 +14,6 @@
   "log_interval": 10,
   "save_interval":500,
 
-  "embedding_size": 512,
   "batch_size": 128,
   "test_batch_size":64,
 
