@@ -86,6 +86,6 @@ there are almost the same with training_certer.json, but two more parameters:
 you can check training process using tensorboard. the specific way is writen in "checkpoints/readme.txt"
 
 ## Contact
-Email:292226814@qq.com
+Email:  292226814@qq.com
 
 
