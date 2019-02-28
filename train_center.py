@@ -206,8 +206,6 @@ if __name__ == '__main__':
                 args.center_loss_weight =params['center_loss_weight']
             if 'alpha' in params:
                 args.alpha =params['alpha']
-            if 'embedding_size' in params:
-                args.embedding_size =params['embedding_size']
             if 'batch_size' in params:
                 args.batch_size =params['batch_size']
             if 'test_batch_size' in params:
@@ -236,6 +234,8 @@ if __name__ == '__main__':
                 args.val_interval=params['val_interval']
             if 'save_interval' in params:
                 args.save_interval = params['save_interval']
+    
+    args.embedding_size =512;
 
     if not args.no_cuda:
         os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu_id
