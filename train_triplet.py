@@ -292,8 +292,6 @@ if __name__ == '__main__':
                 args.center_loss_weight = params['center_loss_weight']
             if 'alpha' in params:
                 args.alpha = params['alpha']
-            if 'embedding_size' in params:
-                args.embedding_size = params['embedding_size']
             if 'batch_size' in params:
                 args.batch_size = params['batch_size']
             if 'test_batch_size' in params:
@@ -326,6 +324,8 @@ if __name__ == '__main__':
                 args.n_triplets = params['n_triplets']
             if 'margin' in params:
                 args.margin = params['margin']
+                
+    args.embedding_size =512;
 
     # order to prevent any memory allocation on unused GPUs
     os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu_id
