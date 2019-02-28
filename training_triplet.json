@@ -1,0 +1,32 @@
+{
+  "dataroot": "/data/tee/face/vggface_train/test300",
+  "lfw_dir": "/data/tee/face/LFW/lfw_aligned",
+  "lfw_pairs_path": "/data/tee/face/LFW/lfw_pairs.txt",
+  "log_dir": "./checkpoints",
+  "resume": true,
+  "start_epoch": 0,
+  "epochs": 50,
+  "no_cuda": false,
+  "gpu_id": "2,3",
+  "num_workers":40,
+  "seed": 0,
+  "val_interval":0.1,
+  "log_interval": 0.01,
+  "save_interval":0.2,
+
+  "embedding_size": 512,
+  "batch_size": 64,
+  "test_batch_size":32,
+
+  "optimizer": "adam",
+  "lr": 0.001,
+  "center_loss_weight": 0.005,
+
+  "alpha": 0.5,
+  "beta1":0.9,
+  "lr_decay": 1e-4,
+  "wd": 0.0,
+
+  "n_triplets":20000,
+  "margin":0.1
+}
