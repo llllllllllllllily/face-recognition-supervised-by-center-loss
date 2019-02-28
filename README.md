@@ -72,7 +72,7 @@ paper：FaceNet: A Unified Embedding for Face Recognition and Clustering
 
 1.modify config file -------> training_triplet.json
 
-there are almost same comparing training_certer.json, but two more parameters:
+there are almost the same with training_certer.json, but two more parameters:
 
 | parameter  | default value | explain |
 | -----------| --------------| --------|
@@ -85,6 +85,7 @@ there are almost same comparing training_certer.json, but two more parameters:
 
 you can check training process using tensorboard. the specific way is writen in "checkpoints/readme.txt"
 
-
+## Contact
+Email:292226814@qq.com
 
 
