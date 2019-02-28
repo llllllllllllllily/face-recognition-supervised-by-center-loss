@@ -2,7 +2,7 @@
 Deep Face Recognition ; pytorch ;  center_loss ; triplet_loss;
 
 ## Introduction
-In this repository,we provide code to train deep face neural network using pytorch. the newwork was training supervised by center loss. we also provide
+In this repository,we provide code to train deep face neural network using pytorch. the network was training supervised by center loss. we also provide
 triplet loss Method to train the network,but my experients indicate the result is not good comparing  using center loss. so I
 recommend you use center loss.
 
@@ -12,21 +12,27 @@ the training data I used is vggface2 which have 8631 identities and 3 million pi
 
 the test data I used is LFW. 
 
-my result:   vgg16+ vggface2   test accurancy:0.967  auc:0.99
+### MY RESULT:   
+vgg16+vggface2:   test accurancy:  0.967     auc:  0.99
 
 ![roc and auc](https://github.com/llllllllllllllily/face-recognition-supervised-by-center-loss/resource/roc.png)
 
 (the code will drawing roc curve in checkpoints when test)
 
-environment：python3,pytorch   the code can be run under both GPU and CPU
+### environment：python3, pytorch   
+
+the code can be run under both GPU and CPU
 
 ## Data prepare
 All face images should be aligned by MTCNN and cropped to 112x112
+
 if you don't alighed,the accurancy would be very low
+
 the datasets directory provide LFW which is alighed. Sorry for not providing other branchmarks. That are too large. I belive you can get them in network.
 ## train
 ### using center loss (recommand)
 paper: A Discriminative Feature Learning Approach for Deep Face Recognition
+
 1.modify config file -------> training_certer.json
 
 I write all the config parameters in this json file. the explain is as follows:
