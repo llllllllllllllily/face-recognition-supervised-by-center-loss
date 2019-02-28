@@ -15,7 +15,7 @@ the test data I used is LFW.
 ### My Result:   
 vgg16+vggface2:   test accurancy:  0.967     auc:  0.99
 
-![roc and auc](https://github.com/llllllllllllllily/face-recognition-supervised-by-center-loss/resource/roc.png)
+![roc and auc](https://github.com/llllllllllllllily/face-recognition-supervised-by-center-loss/resource/test_roc.png)
 
 (the code will drawing roc curve in checkpoints when test)
 
