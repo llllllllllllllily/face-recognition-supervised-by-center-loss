@@ -34,7 +34,7 @@ LFW download path(BaiduNetdisk):
 
 https://pan.baidu.com/s/1eilswvW-qXy3XsHoTeHRzg 
 
-password：iyd7
+passward：iyd7
 
 the LFW data above is  alighed. vggface2 is too large.You can get it in  https://github.com/deepinsight/insightface. this repo not only provide alighed datasets like vggface2 and mslm, but also alighed code in src/align. You can use the code in src/align to align your own datasets.
 
@@ -111,7 +111,7 @@ There is a checkpoint I trained using vgg16. You can use it as pretrained model.
 
 download path(BaiduNetdisk): https://pan.baidu.com/s/1IPdmFy0bFfPt1xqV8S7eDg 
 
-password：89sf 
+passward：89sf 
 
 ## Contact
 Email:  292226814@qq.com
