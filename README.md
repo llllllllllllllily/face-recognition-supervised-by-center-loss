@@ -38,7 +38,7 @@ password：iyd7
 
 the LFW data above is  alighed. vggface2 is too large.You can get it in  https://github.com/deepinsight/insightface. this repo not only provide alighed datasets like vggface2 and mslm, but also alighed code in src/align. You can use the code in src/align to align your own datasets.
 
-you must put the data in the directory ./datasets. And the format is as follows:
+you must put the data in the directory "./datasets". And the format is as follows:
 ```
 --datasets
    
@@ -48,7 +48,7 @@ you must put the data in the directory ./datasets. And the format is as follows:
         
          --111.jpg
 ```        
-that is say the images be grouped by Id or name.
+that is say the images must be grouped by id or name.
 
 ## Train
 ### Using center loss (recommand)
