@@ -1,6 +1,6 @@
 # face-recognition-supervised-by-center-loss
 Deep Face Recognition ; pytorch ;  center_loss ; triplet_loss;
-
+[中文](https://blog.csdn.net/weixin_40087578/article/details/88560676)
 ## Introduction
 In this repository,we provide code to train deep face neural network using pytorch. the network was training supervised by center loss. we also provide
 triplet loss Method to train the network,but my experients indicate the result is not good comparing  using center loss. so I
@@ -29,7 +29,25 @@ All face images should be aligned by MTCNN and cropped to 112x112
 
 if you don't alighed,the accurancy would be very low
 
-the datasets directory provide LFW which is alighed. Sorry for not providing other branchmarks. That are too large. I belive you can get them in network.
+LFW download path(BaiduNetdisk):
+
+https://pan.baidu.com/s/1eilswvW-qXy3XsHoTeHRzg 
+
+password：iyd7
+
+the LFW data above is  alighed. vggface2 is too large.You can get it in  https://github.com/deepinsight/insightface. this repo not only provide alighed datasets like vggface2 and mslm, but also alighed code in src/align. You can use the code in src/align to align your own datasets.
+
+you must put the data in the directory ./datasets. And the format is as follows:
+--datasets
+   
+   --vggface2
+   
+      --people name/id
+        
+         --111.jpg
+         
+that is say the images be grouped by Id or name.
+
 ## Train
 ### Using center loss (recommand)
 paper: A Discriminative Feature Learning Approach for Deep Face Recognition
@@ -86,7 +104,16 @@ there are almost the same with training_certer.json, but two more parameters:
 
 you can check training process using tensorboard. the specific way is writen in "checkpoints/readme.txt"
 
+## pretrained checkpoints
+There is a checkpoint I trained using vgg16. You can use it as pretrained model.
+
+download path(BaiduNetdisk): https://pan.baidu.com/s/1IPdmFy0bFfPt1xqV8S7eDg 
+
+password：89sf 
+
 ## Contact
 Email:  292226814@qq.com
+
+## please give me a star. Thank you very much.
 
 
