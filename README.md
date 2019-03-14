@@ -1,5 +1,6 @@
 # face-recognition-supervised-by-center-loss
 Deep Face Recognition ; pytorch ;  center_loss ; triplet_loss;
+
 [中文](https://blog.csdn.net/weixin_40087578/article/details/88560676)
 ## Introduction
 In this repository,we provide code to train deep face neural network using pytorch. the network was training supervised by center loss. we also provide
@@ -38,14 +39,15 @@ password：iyd7
 the LFW data above is  alighed. vggface2 is too large.You can get it in  https://github.com/deepinsight/insightface. this repo not only provide alighed datasets like vggface2 and mslm, but also alighed code in src/align. You can use the code in src/align to align your own datasets.
 
 you must put the data in the directory ./datasets. And the format is as follows:
+```
 --datasets
    
    --vggface2
    
-      --people name/id
+        --people name/id
         
          --111.jpg
-         
+```        
 that is say the images be grouped by Id or name.
 
 ## Train
