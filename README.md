@@ -114,7 +114,8 @@ download path(BaiduNetdisk): https://pan.baidu.com/s/1IPdmFy0bFfPt1xqV8S7eDg
 passward：89sf 
 
 ## Contact
-Email:  292226814@qq.com
+Email:  18811423186@163.com
+vx:     18811423186
 
 ## please give me a star. Thank you very much.
 
